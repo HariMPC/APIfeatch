@@ -1,0 +1,30 @@
+body{
+    background-color: whitesmoke !important;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    text-align: center !important;
+    gap: 1rem  !important ;
+    
+}
+span{
+    font-weight: bolder;
+}
+.card{
+    border-radius: 5px;
+    box-shadow: grey;
+    width:24rem;
+    height: 29rem;
+}
+.flag{
+    justify-content: center;
+    place-content: center;
+    text-align: center;
+    width:10rem;
+    height: 10rem;
+    margin:auto;
+} 
+ /* .car {
+    height: 10rem;
+    line-height: normal;
+} */
